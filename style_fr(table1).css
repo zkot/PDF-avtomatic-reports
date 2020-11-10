@@ -1,0 +1,139 @@
+@page {
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-top: 0cm;
+  margin-bottom: 2cm;
+}
+@page {
+   @bottom-center {
+	content: "Отчет подготовлен для 'ООО .....'";
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 1cm;
+	font-size: 15px;
+	}	
+}	
+.tables {
+  border: white;
+  position: relative;
+}
+
+.top {
+  border: white;
+  position: relative;
+  
+  
+}
+	
+p{		
+	text-align: right;
+	margin-top: 1cm;
+	font-size: 17px;
+}	
+h1 {
+  page-break-before: always;
+}
+h2 {
+   text-align: center;
+   font-family: Helvetica, Arial, sans-serif;
+ }
+l{
+   text-align: justify;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 11px;
+ }
+m{
+   text-align: center;
+   font-family: Helvetica, Arial, sans-serif;
+   display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+ 
+h7 {
+   text-align: justify;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 15px;
+   line-height: 25px;
+   width: 100%;
+ }
+table {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+ }
+table_old {
+   margin-left: 1cm;
+   margin-right: 1cm;
+   width: auto;
+ }
+
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   table-layout: fixed
+ }
+
+th{
+   padding: 3px;
+   text-align: center;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 60%;
+   width: 1.5%;
+}
+td {
+   padding: 3px;
+   text-align: center;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 60%;
+   width: 1.5%;
+ }
+table.left_class tbody th{
+    
+	text-align: left;
+   }
+
+table. tbody th {
+    padding: 3px;
+	text-align: center;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 60%;
+   width: 1.5%;}
+   
+OLD_table. tbody th {
+    padding: 5px;
+	text-align: center;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 90%;
+   width: 2%;}
+
+th{background: #ADD8E6}
+
+
+table tbody tr:hover {
+   background-color: #ADD8E6;
+ }
+
+.wide {
+   width: 100%;
+}
+
+.first {
+  position: absolute;
+  left: 0;
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  align: right;
+}
+
+.second {
+   width: 100%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}​
